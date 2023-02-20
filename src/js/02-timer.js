@@ -24,6 +24,7 @@ const seconds = document.querySelector('[data-seconds]');
 btnStart.setAttribute('disabled', true);
 
 let timerId;
+let timeDifference = 0;
 const currentDate = new Date();
 
 function differenceInTime(selectedDates) {
