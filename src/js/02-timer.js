@@ -25,6 +25,7 @@ btnStart.setAttribute('disabled', true);
 
 let timerId;
 let timeDifference = 0;
+let timeDifferenceInMs;
 const currentDate = new Date();
 
 function differenceInTime(selectedDates) {
